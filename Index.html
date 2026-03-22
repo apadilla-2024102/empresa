@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="Z6prbK3XSrYLCalP5pZTCnZ1wNHhoN_9QhWogd1wfjI" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="Styles/Dekk.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="nav-container">
+        <h1 class="logo">prueba</h1>
+        <ul class="nav-menu">
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#galeria">Pisos</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#caracteristicas">Características</a></li>
+            <li><a href="#cotizador">Cotizador</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+<header class="hero" id="hero">
+    <div class="company-name">
+        <h1>prueba</h1>
+        <p class="tagline">Excelencia en Bienes Raíces de Lujo</p>
+    </div>
+    <div class="scroll-indicator"></div>
+</header>
+
+<section class="galeria" id="galeria">
+    <div class="container">
+        <h2>Nuestros Pisos Destacados</h2>
+        <p>Explora nuestra selección de propiedades exclusivas</p>
+
+        <div class="grid">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=250&fit=crop" alt="Piso Moderno">
+                <div class="info">
+                    <h3>Piso Moderno Centro</h3>
+                    <p>120m² • 3 habitaciones • Vista panorámica • $450,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 3</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-car"></i> 1</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=250&fit=crop" alt="Loft Elegante">
+                <div class="info">
+                    <h3>Loft Elegante</h3>
+                    <p>95m² • 2 habitaciones • Diseño industrial • $380,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 2</span>
+                        <span><i class="fas fa-bath"></i> 1</span>
+                        <span><i class="fas fa-home"></i> Loft</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=250&fit=crop" alt="Suite de Lujo">
+                <div class="info">
+                    <h3>Suite Ejecutiva</h3>
+                    <p>150m² • 4 habitaciones • Jardín privado • $650,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 4</span>
+                        <span><i class="fas fa-bath"></i> 3</span>
+                        <span><i class="fas fa-tree"></i> Jardín</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=250&fit=crop" alt="Ático Premium">
+                <div class="info">
+                    <h3>Ático Premium</h3>
+                    <p>180m² • 3 habitaciones • Terraza • $720,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 3</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-sun"></i> Terraza</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&h=250&fit=crop" alt="Duplex Familiar">
+                <div class="info">
+                    <h3>Duplex Familiar</h3>
+                    <p>140m² • 4 habitaciones • 2 plantas • $520,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 4</span>
+                        <span><i class="fas fa-bath"></i> 2</span>
+                        <span><i class="fas fa-layer-group"></i> Duplex</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=250&fit=crop" alt="Estudio Minimalista">
+                <div class="info">
+                    <h3>Estudio Minimalista</h3>
+                    <p>60m² • 1 habitación • Centro urbano • $280,000</p>
+                    <div class="features">
+                        <span><i class="fas fa-bed"></i> 1</span>
+                        <span><i class="fas fa-bath"></i> 1</span>
+                        <span><i class="fas fa-city"></i> Centro</span>
+                    </div>
+                    <button class="btn-open-modal">Ver Detalles</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sobre-nosotros" id="sobre-nosotros">
+    <div class="container">
+        <h2>Sobre prueba</h2>
+        <div class="sobre-content">
+            <div class="sobre-text">
+                <h3>Excelencia en Bienes Raíces</h3>
+                <p>Con más de 15 años de experiencia en el mercado inmobiliario, prueba se ha establecido como líder en la venta de propiedades de lujo. Nuestro compromiso con la calidad, la innovación y el servicio excepcional nos distingue en el sector.</p>
+                
+                <h3>Nuestra Misión</h3>
+                <p>Proporcionar experiencias inmobiliarias excepcionales, conectando a nuestros clientes con propiedades que superan sus expectativas y contribuyen a construir sus sueños.</p>
+                
+                <h3>Nuestros Valores</h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Integridad y transparencia en todas nuestras operaciones</li>
+                    <li><i class="fas fa-check-circle"></i> Excelencia en el servicio al cliente</li>
+                    <li><i class="fas fa-check-circle"></i> Innovación constante en soluciones inmobiliarias</li>
+                    <li><i class="fas fa-check-circle"></i> Compromiso con la calidad y el lujo</li>
+                </ul>
+            </div>
+            <div class="sobre-stats">
+                <div class="stat">
+                    <h4>500+</h4>
+                    <p>Propiedades Vendidas</p>
+                </div>
+                <div class="stat">
+                    <h4>15+</h4>
+                    <p>Años de Experiencia</p>
+                </div>
+                <div class="stat">
+                    <h4>98%</h4>
+                    <p>Satisfacción del Cliente</p>
+                </div>
+                <div class="stat">
+                    <h4>24/7</h4>
+                    <p>Soporte Disponible</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="property-modal" class="modal">
+    <div class="modal-content">
+        <span class="modal-close">&times;</span>
+        <img id="modal-img" src="" alt="Detalle propiedad">
+        <h3 id="modal-title"></h3>
+        <p id="modal-price"></p>
+        <p id="modal-desc"></p>
+        <div id="modal-features"></div>
+    </div>
+</div>
+
+<section class="caracteristicas" id="caracteristicas">
+    <div class="container">
+        <h2>¿Por qué elegir prueba?</h2>
+        <div class="features-grid">
+            <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Seguridad Total</h3>
+                <p>Sistemas de seguridad 24/7 con cámaras y acceso controlado</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-leaf"></i>
+                <h3>Ecológico</h3>
+                <p>Materiales sostenibles y certificaciones ambientales</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-tools"></i>
+                <h3>Acabados Premium</h3>
+                <p>Cocinas y baños con electrodomésticos de alta gama</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Ubicación Privilegiada</h3>
+                <p>Cerca de transporte público, comercios y zonas verdes</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-users"></i>
+                <h3>Comunidad Exclusiva</h3>
+                <p>Áreas comunes con piscina, gimnasio y zonas de recreación</p>
+            </div>
+            <div class="feature">
+                <i class="fas fa-handshake"></i>
+                <h3>Garantía</h3>
+                <p>Garantía de 10 años en estructura y acabados</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cotizador" id="cotizador">
+    <div class="container">
+        <h2>Cotiza tu Piso Ideal</h2>
+        <p>Calcula el precio estimado basado en tus necesidades</p>
+
+        <div class="calculator">
+            <div class="input-group">
+                <label for="metros">Metros cuadrados</label>
+                <input type="number" id="metros" placeholder="Ej: 100" min="1">
+            </div>
+            <div class="input-group">
+                <label for="precio">Precio por m² (€)</label>
+                <input type="number" id="precio" placeholder="Ej: 3000" min="1">
+            </div>
+            <div class="input-group">
+                <label for="tipo">Tipo de piso</label>
+                <select id="tipo">
+                    <option value="1">Estándar</option>
+                    <option value="1.2">Premium</option>
+                    <option value="1.5">De lujo</option>
+                </select>
+            </div>
+            <button onclick="calcular()">Calcular Precio</button>
+        </div>
+
+        <div id="resultado" class="result"></div>
+    </div>
+</section>
+
+<section class="testimonials">
+    <div class="container">
+        <h2>Opiniones de nuestros clientes</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Increíble experiencia. El piso superó todas mis expectativas. ¡Altamente recomendado!"</p>
+                <cite>- María González</cite>
+            </div>
+            <div class="testimonial">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"La atención al cliente es excepcional. Me ayudaron en cada paso del proceso."</p>
+                <cite>- Carlos Rodríguez</cite>
+            </div>
+            <div class="testimonial">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"Calidad premium y ubicación perfecta. Mi inversión más inteligente."</p>
+                <cite>- Ana López</cite>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contacto" id="contacto">
+    <div class="container">
+        <h2>Contáctanos</h2>
+        <p>¿Interesado en alguno de nuestros pisos? ¡Hablemos!</p>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <span>+34 123 456 789</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>info@luxuryfloors.es</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Calle Principal 123, Madrid</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Nombre" required>
+                <input type="email" placeholder="Email" required>
+                <input type="tel" placeholder="Teléfono">
+                <textarea placeholder="Mensaje" rows="5" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Luxury Floors | Todos los derechos reservados</p>
+        <div class="footer-links">
+            <a href="#">Política de Privacidad</a>
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Mapa del Sitio</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script/dekk.js"></script>
+
+</body>
+</html>
